@@ -5,7 +5,7 @@ on:
 
   deployment:
 
-  jobs:
+
 
   validate-yaml:
 
