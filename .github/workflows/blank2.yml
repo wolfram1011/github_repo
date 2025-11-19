@@ -23,6 +23,4 @@ jobs:
       - name: Validate YAML file
 
         run: yamllint my-file.yml
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+
