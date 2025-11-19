@@ -1,0 +1,20 @@
+name: CI
+
+# Controls when the workflow will run
+on:
+
+  deployment:
+
+  jobs:
+
+  validate-yaml:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - name: Validate YAML file
+
+        run: yamllint my-file.yml
