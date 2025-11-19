@@ -1,11 +1,16 @@
-name: CI
+name: Validate YAML
 
-# Controls when the workflow will run
+ 
+
 on:
 
-  deployment:
+  push:
 
+  pull_request:
 
+ 
+
+jobs:
 
   validate-yaml:
 
