@@ -1,0 +1,23 @@
+name: Validate YAML
+
+ 
+
+on:
+
+  deployment:
+
+ 
+
+jobs:
+
+  validate-yaml:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - name: Validate YAML file
+
+        run: yamllint my-file.yml
